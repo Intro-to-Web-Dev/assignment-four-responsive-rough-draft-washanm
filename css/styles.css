@@ -55,9 +55,6 @@
 .item5 { grid-area: menu; }
 .item6 { grid-area: footer; }
 
-.item4 img{
-
-}
 .pagetitle {
     text-align:center; 
     color:#fff; 

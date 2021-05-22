@@ -36,12 +36,17 @@ body {
     margin-left: 2%;
 }
 
+.col-center p {
+    height: 60%;
+    text-align: center;
+}
+
 .pagetitle {
     text-align: center;
     color: #fff;
     font-weight: bold;
     font-size: 45pt;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -50,7 +55,7 @@ body {
     color: #000;
     font-weight: bold;
     font-size: 45pt;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -92,21 +97,24 @@ body {
 }
 
 .social-media {
-    padding-top: 40px;
+    padding-top: 65px;
 }
 
+.social-media a {
+    text-align:center;
+}
 /*.mainmenu {
             margin-top: auto;
         }*/
 .mainmenu a {
-    text-decoration: none;
-    display: inline-block;
-    width: 200px;
-    color: #fff;
-    font-size: 32pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
+text-decoration: none;
+display: inline-block;
+width: 200px;
+color: #fff;
+font-size: 50pt;
+font-family: carlmarx, sans-serif;
+font-weight: 700;
+font-style: normal;}
 
 .submenu a {
     text-decoration: none;
@@ -157,8 +165,9 @@ body {
 .photo-imgs {width:300px; height:300px; padding:20px;}
 .photo-names label {display:block;}
 
-.music-links {
+.music-links, .photo-links, .video-links,.merch-links {
     text-align:center;
+    height:auto !important;
 }
 
 .music-links img:hover{
@@ -191,4 +200,89 @@ body {
     .tooltip:hover .tooltiptext {
         visibility: visible;
     }
+
+.email-form {
+    padding:20px;
+}
+
+.email-form label, input {
+    font-size:16pt;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.email-form button {
+    background-color: black;
+    color: #fff;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 2px solid black; 
+    width:300px;
+}
+
+iframe {
+    border: none;
+}
+
+@media screen and (max-width: 1245px) {
+    .col-center p {
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    iframe {width:100%; height:500px;}
+}
+
+@media screen and (max-width: 1000px) {
+
+    .col img {
+        width: 175px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .col img {
+        width: 150px;
+        padding-top: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .col img {
+        width: 125px;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 787px) {
+    .col-center p { height:53%;}
+    .col img {
+        width: 100px;
+        padding-top:20px;
+    }
+}
+
+@media screen and (max-width: 662px) {
+    .col-center p {
+        height: 45%;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .col-center p {
+        height: 35%;
+    }
+}
 
